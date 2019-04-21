@@ -13,6 +13,9 @@
 		584C01C8226C492400BCA469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584C01C7226C492400BCA469 /* Assets.xcassets */; };
 		584C01CB226C492400BCA469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584C01C9226C492400BCA469 /* LaunchScreen.storyboard */; };
 		584C01CE226C492500BCA469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584C01CD226C492500BCA469 /* main.m */; };
+		584C01DA226C55A700BCA469 /* TTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584C01D8226C55A700BCA469 /* TTFeedbackViewController.m */; };
+		584C01DB226C55A700BCA469 /* TTFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584C01D9226C55A700BCA469 /* TTFeedbackViewController.xib */; };
+		584C01DE226C58A100BCA469 /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 584C01DD226C58A100BCA469 /* UILabel+YBAttributeTextTapAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		584C01CA226C492400BCA469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		584C01CC226C492500BCA469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		584C01CD226C492500BCA469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584C01D7226C55A700BCA469 /* TTFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFeedbackViewController.h; sourceTree = "<group>"; };
+		584C01D8226C55A700BCA469 /* TTFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFeedbackViewController.m; sourceTree = "<group>"; };
+		584C01D9226C55A700BCA469 /* TTFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTFeedbackViewController.xib; sourceTree = "<group>"; };
+		584C01DC226C58A000BCA469 /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
+		584C01DD226C58A100BCA469 /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,16 @@
 		584C01BD226C491800BCA469 /* TTFeedBackDemo */ = {
 			isa = PBXGroup;
 			children = (
+				584C01DC226C58A000BCA469 /* UILabel+YBAttributeTextTapAction.h */,
+				584C01DD226C58A100BCA469 /* UILabel+YBAttributeTextTapAction.m */,
 				584C01BE226C491800BCA469 /* AppDelegate.h */,
 				584C01BF226C491800BCA469 /* AppDelegate.m */,
 				584C01C1226C491800BCA469 /* ViewController.h */,
 				584C01C2226C491800BCA469 /* ViewController.m */,
 				584C01C4226C491800BCA469 /* Main.storyboard */,
+				584C01D7226C55A700BCA469 /* TTFeedbackViewController.h */,
+				584C01D8226C55A700BCA469 /* TTFeedbackViewController.m */,
+				584C01D9226C55A700BCA469 /* TTFeedbackViewController.xib */,
 				584C01C7226C492400BCA469 /* Assets.xcassets */,
 				584C01C9226C492400BCA469 /* LaunchScreen.storyboard */,
 				584C01CC226C492500BCA469 /* Info.plist */,
@@ -129,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				584C01CB226C492400BCA469 /* LaunchScreen.storyboard in Resources */,
+				584C01DB226C55A700BCA469 /* TTFeedbackViewController.xib in Resources */,
 				584C01C8226C492400BCA469 /* Assets.xcassets in Resources */,
 				584C01C6226C491800BCA469 /* Main.storyboard in Resources */,
 			);
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				584C01C3226C491800BCA469 /* ViewController.m in Sources */,
+				584C01DA226C55A700BCA469 /* TTFeedbackViewController.m in Sources */,
 				584C01CE226C492500BCA469 /* main.m in Sources */,
+				584C01DE226C58A100BCA469 /* UILabel+YBAttributeTextTapAction.m in Sources */,
 				584C01C0226C491800BCA469 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
